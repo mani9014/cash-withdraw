@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #150b3e;
+  height: 80vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  font-family: 'Roboto';
+  padding: 20px;
+}
+.profile-container {
+  display: flex;
+  flex-direction: row;
+}
+.s-letter {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  border-radius: 30px;
+  height: 60px;
+  width: 60px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 15px;
+}
+.sarah-name {
+  color: #d4d2db;
+  font-size: 20px;
+  font-family: 'Roboto';
+  padding: 20px;
+}
+.Balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+.balance-heading {
+  color: #585076;
+  font-size: 23px;
+  font-weight: 600;
+}
+.rupees {
+  color: #d4d2db;
+  font-size: 25px;
+  font-weight: 600;
+}
+.in-rupees {
+  color: #585076;
+  font-size: 14px;
+}
+.withdraw {
+  color: #d4d2db;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.sum-heading {
+  color: #585076;
+  font-size: 15px;
+  font-weight: 500;
+}
+.order-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
